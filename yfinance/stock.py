@@ -5,10 +5,6 @@ print("Testing historical yfinance API.")
 stocks = pd.read_csv("stock_s.csv")
 sectors = pd.read_csv("sectors.csv")
 
-# years = [['2016-1-1', '2016-12-31'], ['2012-1-1', '2012-12-31'], ['2008-1-1', '2008-12-31'], ['2004-1-1', '2004-12-31'],
-#     ['2000-1-1', '2000-12-31'], ['1996-1-1', '1996-12-31'], ['1992-1-1', '1992-12-31'], ['1988-1-1', '1988-12-31'],
-#     ['1984-1-1', '1984-12-31'], ['1980-1-1', '1980-12-31']]
-
 # 30 days prior to the election to 30 days after the election (60 days of data)
 years = [['2016-9-28', '2016-12-22'], ['2012-9-24', '2012-12-20'], ['2008-9-24', '2008-12-18'],
         ['2004-9-22', '2004-12-16'], ['2000-9-27', '2000-12-21'], ['1996-9-25', '1996-12-19'],
@@ -30,8 +26,9 @@ election_date = []
 # 11/6/2012
 # 11/8/2016
 
-
-path = r'C:\Users\scott\Documents\GitHub\Data_Mining\Project\yfinance\election_data_close_norm.csv'
+# UPDATE PATH FOR FILE
+# path = r'C:\Users\scott\Documents\GitHub\Data_Mining\Project\yfinance\election_data_close_norm.csv'
+path = r'C:\Users\scott\Documents\GitHub\DM_Project\yfinance\election_data_close_raw.csv'
 
 # used for testing
 # tickerSymbol = 'GM'
@@ -54,7 +51,7 @@ for i in range(stocks.shape[1]):
 
         # only process data if there is data available -
         if tickerDf.shape[0] > 0:
-            # save the data in the desired format
+            # save the data in the desired format                       # UPDATE HERE **********************************
             # save the date as a series
             # open = tickerDf.iloc[:,0]
             # high = tickerDf.iloc[:,1]
@@ -81,11 +78,12 @@ for i in range(stocks.shape[1]):
             for k in range(len(tickerDf.iloc[:,0])):
                 # normalize the data based on closing of day 1
                 if k == 0:
-                    norm = close[k]
+                    norm = close[k]                            # UPDATE HERE **********************************
                     # volume_n = volume[k]
                 # accounts for any 0 norms - this is a function of getting bad data from the API
                 if norm != 0:
-                    one_stock_list.append(close[k]/norm)
+                    # one_stock_list.append(volume[k]/norm)       # UPDATE HERE **********************************
+                    one_stock_list.append(close[k])            # UPDATE HERE - NO NORMALIZATION ***************
                 else:
                     one_stock_list.append(1)
             yearly_data.append(one_stock_list)
