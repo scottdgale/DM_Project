@@ -9,7 +9,7 @@ code = ['DR', 'RD', 'DD', 'RR']
 code_label = ['Democrat to Republican', 'Republican to Democrat', 'Democrat to Democrat', 'Republican to Republican']
 
 # import the data
-data = pd.read_csv("election_data_close_norm.csv")
+data = pd.read_csv("data\election_data_close_norm.csv")
 
 # divide the data into four election segments
 results = []

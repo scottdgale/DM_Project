@@ -1,9 +1,9 @@
 import yfinance as yf
 import pandas as pd
 
-print("Testing historical yfinance API.")
-stocks = pd.read_csv("stock_s.csv")
-sectors = pd.read_csv("sectors.csv")
+print("Data Mining - Yahoo Finance API.")
+stocks = pd.read_csv("data\stock_s.csv")
+sectors = pd.read_csv("data\sectors.csv")
 
 # 30 days prior to the election to 30 days after the election (60 days of data)
 years = [['2016-9-28', '2016-12-22'], ['2012-9-24', '2012-12-20'], ['2008-9-24', '2008-12-18'],
@@ -27,8 +27,8 @@ election_date = []
 # 11/8/2016
 
 # UPDATE PATH FOR FILE
-# path = r'C:\Users\scott\Documents\GitHub\Data_Mining\Project\yfinance\election_data_close_norm.csv'
-path = r'C:\Users\scott\Documents\GitHub\DM_Project\yfinance\election_data_close_raw.csv'
+# path = 'data\election_data_close_norm.csv'
+path = r'data\test.csv'
 
 # used for testing
 # tickerSymbol = 'GM'

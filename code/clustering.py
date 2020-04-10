@@ -12,9 +12,9 @@ code_label = ['Democrat to Republican', 'Republican to Democrat', 'Democrat to D
 color = ['r', 'darkorange', 'yellow', 'palegreen', 'darkgreen', 'navy', 'skyblue', 'm', 'c', 'darkslategray']
 
 # import the data
-data = pd.read_csv("election_data_close_norm.csv")
-raw_volume = pd.read_csv("election_data_volume_raw.csv")
-raw_close = pd.read_csv("election_data_close_raw.csv")
+data = pd.read_csv("data\election_data_close_norm.csv")
+raw_volume = pd.read_csv("data\election_data_volume_raw.csv")
+raw_close = pd.read_csv("data\election_data_close_raw.csv")
 
 
 # divide the data into four election segments
