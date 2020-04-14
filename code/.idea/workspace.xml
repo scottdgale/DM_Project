@@ -2,54 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f97bd8c8-819e-421a-8d9a-7532f88c3b7c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../sectors.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stock_s.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stocks.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/.idea/yfinance.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/Cluster_Kplusplus.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/Cluster_Lloyd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/archive/1972.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/archive/1976.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/archive/1980.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/archive/1984.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/archive/1988.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/archive/1992.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/archive/1996.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/archive/2000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/archive/2004.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/archive/2008.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/archive/2012.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/archive/2016.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/clustering.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/election_data_close_norm.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/election_data_close_raw.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/election_data_norm.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/election_data_raw.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/election_data_volume_norm.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/election_data_volume_raw.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/elections.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/plots/DD_post.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/plots/DD_pre.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/plots/DR_Financials.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/plots/DR_Pre.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/plots/DR_industrials.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/plots/DR_it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/plots/DR_materials.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/plots/DR_post.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/plots/DR_staples.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/plots/RD_post.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/plots/RD_pre.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/plots/RR_post.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/plots/RR_pre.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/regression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/sectors.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/stock.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yfinance/stock_s.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/clustering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/election_data_close_norm.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/election_data_close_norm.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/regression.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,11 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_generator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-21">
-              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="285">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -71,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clustering.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1021">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="306">
+              <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -86,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cluster_Lloyd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="143">
+              <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -107,6 +75,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>get_dis</find>
+      <find>pause</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -119,9 +88,10 @@
         <option value="$PROJECT_DIR$/explore_data.py" />
         <option value="$PROJECT_DIR$/Cluster_Kplusplus.py" />
         <option value="$PROJECT_DIR$/Cluster_Lloyd.py" />
-        <option value="$PROJECT_DIR$/clustering.py" />
-        <option value="$PROJECT_DIR$/regression.py" />
         <option value="$PROJECT_DIR$/stock.py" />
+        <option value="$PROJECT_DIR$/data_generator.py" />
+        <option value="$PROJECT_DIR$/regression.py" />
+        <option value="$PROJECT_DIR$/clustering.py" />
       </list>
     </option>
   </component>
@@ -145,6 +115,11 @@
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -152,7 +127,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data_generator.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/clustering.py" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
@@ -190,7 +165,7 @@
           <ENTRY IS_ENABLED="true" PARSER="runconfig" />
         </ENTRIES>
       </EXTENSION>
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_generator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clustering.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -215,13 +190,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24981412" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24981412" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32980132" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32980132" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -252,11 +228,6 @@
           <url>file://$PROJECT_DIR$/Cluster_Kplusplus.py</url>
           <line>18</line>
           <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/clustering.py</url>
-          <line>80</line>
-          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -346,12 +317,7 @@
     <entry file="file://$PROJECT_DIR$/election_data_close_norm.csv" />
     <entry file="file://$PROJECT_DIR$/explore_data.py" />
     <entry file="file://$PROJECT_DIR$/sectors.csv" />
-    <entry file="file://$PROJECT_DIR$/stock_s.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/stock_s.csv" />
     <entry file="file://$PROJECT_DIR$/election_data_volume_norm.csv" />
     <entry file="file://$USER_HOME$/Downloads/legend.py" />
     <entry file="file://$PROJECT_DIR$/Cluster_Kplusplus.py">
@@ -364,30 +330,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cluster_Lloyd.py">
+    <entry file="file://$PROJECT_DIR$/stock.py" />
+    <entry file="file://$PROJECT_DIR$/data/test.csv" />
+    <entry file="file://$PROJECT_DIR$/data_generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clustering.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1021">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        <state relative-caret-position="510">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
@@ -396,8 +344,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="285">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cluster_Lloyd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clustering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

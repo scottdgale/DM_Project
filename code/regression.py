@@ -48,6 +48,8 @@ for i in range (len(code)):
         slope_prior, intercept_prior = polyfit(x_prior, y_prior, 1)
         slope_after, intercept_after = polyfit(x_after, y_after, 1)
 
+        print(f'Category: {code[i]}, Sector: {sectors[j]}, Prior: {slope_prior*30*100}, After: {slope_after*30*100}')
+
         # generate the points for two lines (before and after)
         line_x = [-30, 0, 30]
         line_y = [1, intercept_prior, slope_after*30 + intercept_after]
@@ -64,7 +66,7 @@ for i in range (len(code)):
         plt.show()
 
         results.append([code[i], sectors[j], slope_prior, slope_after])
-        print(f"Category: {code[i]}, Sector: {sectors[j]}, Slope: {slope_prior}")
+        # print(f"Category: {code[i]}, Sector: {sectors[j]}, Slope: {slope_prior}")
 
 
 
