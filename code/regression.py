@@ -31,9 +31,9 @@ for i in range (len(code)):
 
         # plot the data ********************************************************************************
         fig, ax = plt.subplots(1, figsize=(10,5))
-        fig.suptitle(code_label[i])
+        fig.suptitle(code_label[i] + ": " + sectors[j])
         plt.xlabel('Days prior to and after the election (0 is election)')
-        plt.ylabel(sectors[j])
+        plt.ylabel("Stock price (normalized to $1)")
 
         # scatter plot of the data
         plt.scatter(x, y, s=15, c="blue")
@@ -60,8 +60,8 @@ for i in range (len(code)):
         plt.plot([0,0],[0.5,2] , linewidth=1.0, c='black', linestyle=':')
 
         # display before and after slope as text in the plot
-        plt.text(-20, 1.8, 'Slope prior: ' + str(format(slope_prior, '.5f')))
-        plt.text(10, 1.8, 'Slope after: ' + str(format(slope_after, '.5f')))
+        plt.text(-20, 1.8, 'Change prior: ' + str(format(slope_prior*30*100, '.2f')) + "%")
+        plt.text(10, 1.8, 'Change after: ' + str(format(slope_after*30*100, '.2f')) + "%")
 
         plt.show()
 

@@ -28,6 +28,7 @@ for i in range(len(code)):
     sector_y = []
     cluster_list = []
     count = 0
+
     for j in range(len(sectors)):
         # x and y used to store the points - x is used for average volume and y is used for average daily value change
         x = []
@@ -52,7 +53,7 @@ for i in range(len(code)):
                 subtotal += value * day_close[index]
                 change.append((day_close[index] - previous_close[index]) / day_close[index])
             x.append(subtotal/Y_SCALE)   # divide by 1 billion for plotting / scaling purposes
-            y.append(mean(change)* X_SCALE)
+            y.append(mean(change) * X_SCALE)
 
             if k == 34:
                 # print('pause')
@@ -100,3 +101,36 @@ for i in range(len(code)):
     plt.text(0, 1.01, 'Centers: ' + str(formatted_centers), transform=ax.transAxes)
     plt.legend(handles, sectors, ncol=3, loc='lower center', fontsize='small')
     plt.show()
+
+
+
+
+# Plot the centers from pre and post
+dr_post_x = [2.10774, 7.91684, 12.25591]
+dr_post_y = [0.04020, -0.16921, -0.13397]
+
+rd_post_x = [2.12747, 2.40553, 2.57121]
+rd_post_y = [-2.05444, 2.08996, -6.26068]
+
+rr_post_x = [0.62373, 0.70137, 3.43090]
+rr_post_y = [0.53035, -0.58676, 0.23227]
+
+dd_post_x = [1.27294, 3.69790, 5.07491]
+dd_post_y = [0.02690, 0.34921, -2.15301]
+
+
+dr_pre_x = [1.01867, 2.75602, 8.52695]
+dr_pre_y = [0.20323, -0.44040, 0.60278]
+
+rd_pre_x = [2.11375, 3.19218, 4.17244]
+rd_pre_y = [0.65723, -3.23001, 5.09445]
+
+rr_pre_x = [0.58195, 0.73613, 1.40148]
+rr_pre_y = [0.66887, -0.83741 , 0.03691]
+
+dd_pre_x = [0.85091, 2.15388, 3.68848]
+dd_pre_y = [0.12771, 0.02961, -0.66893]
+
+
+
+
